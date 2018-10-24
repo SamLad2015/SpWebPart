@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-fav-movies-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myFavMovies/MyFavMoviesWebPart.js",
+          "manifest": "./src/webparts/myFavMovies/MyFavMoviesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyFavMoviesWebPartStrings": "lib/webparts/myFavMovies/loc/{locale}.js"
+  }
+}
